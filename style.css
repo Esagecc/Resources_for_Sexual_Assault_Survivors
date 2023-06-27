@@ -1,24 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@200;300;400;600;700&display=swap');
 
 *, *::before, *::after {
     box-sizing: border-box;
 }
 
 * {
-    font-family: 'Nunito', sans-serif;
-    margin: 0;
+    margin:0;
     padding:0;
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(180, 245, 250);
+    background-color: rgb(240, 244, 247);
     display: flex;
     flex-direction: column;
 }
  
 main {
-    padding: 30px 15px;
+    padding: 45px 30px 20px;
+}
 
+.title, .sub-title {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h2, .intro-text, .text { 
+    font-family: 'Nunito', sans-serif;
+}
+
+.title {
+    color: rgb(1, 1, 59);
+    font-size: 3.5rem;
+}
+
+.girls {
+    width: 100%;
+    border-radius: 10px;
+    margin: 25px 0;
+}
+
+.intro-text {
+    color: rgb(1, 1, 59);
+    font-size: 1.5rem;
 }
