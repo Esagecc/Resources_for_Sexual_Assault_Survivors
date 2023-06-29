@@ -23,8 +23,13 @@ main {
     font-family: 'Bebas Neue', sans-serif;
 }
 
-h2, .intro-text, .text, .footer-text{ 
+h2, .caption, .intro-text, .text, .footer-text{ 
     font-family: 'Nunito', sans-serif;
+}
+
+.caption {
+    margin: -30px 0 20px;
+    font-size: .75rem;
 }
 
 h2, .text {
@@ -74,6 +79,54 @@ h2 {
     height: 55px;
     margin-bottom: 30px;
 }
+
+.icons {
+    text-align: right;
+    color: rgb(1, 1, 59);
+    font-size: 2rem;
+    padding: 0 0 25px;
+}
+
+.fa-facebook-f, .fa-instagram, .fa-flickr {
+    padding: 0 10px;
+}
+
+/* following code is for the button */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(43, 139, 151);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+    transition: 0.2s ease-in-out
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+  @media (min-width: 800px) {
+
+    body {
+        align-items: center;
+    }
+    main {
+        width: 60%;
+        padding: 50px 0;
+    }
+
+    .girls {
+        width: 60%;
+    }
+  }
 
 
 
